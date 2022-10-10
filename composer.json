@@ -1,0 +1,13 @@
+{
+    "require": {
+        "ext-zlib": "*",
+        "ext-mysqli": "*",
+        "php": ">=7.4",
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Strlns\\ImdbToyProject\\": "src/"
+        }
+    }
+}
